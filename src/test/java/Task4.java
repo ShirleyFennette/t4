@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.*;
 
             }
             @Test
-            void Task4test() {
+            void Task4Test() {
                 open("/selenide/selenide");
                 $("#wiki-tab").shouldHave(text("wiki")).click();
                 $("#wiki-tab").click();
